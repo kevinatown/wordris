@@ -1,0 +1,36 @@
+{
+  "extends": ["tslint:latest", "tslint-react"],
+  "rules": {
+    // override tslint-react rules here
+    "jsx-wrap-multiline": false,
+    "jsx-self-close": true,
+    "jsx-boolean-value": false,
+    "quotemark": [true, "single", "jsx-double"],
+    "ordered-imports": false,
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "object-literal-sort-keys": false,
+    "no-submodule-imports": false,
+    "no-console": [true, "log"],
+    "indent": [true, "spaces", 2],
+    "member-access": false,
+    "jsx-curly-spacing": false,
+    "jsx-no-multiline-js": false,
+    "variable-name": {
+      "options": [
+        "ban-keywords",
+        "check-format",
+        "allow-leading-underscore",
+        "allow-pascal-case"
+      ]
+    },
+    "ter-indent": [ true, 2, { "SwitchCase": 1 }]
+  },
+  "linterOptions": {
+    "exclude": [
+      "src/__tests__/**/*"
+    ]
+  },
+  "rulesDirectory": [
+    "node_modules/tslint-eslint-rules/dist/rules"
+  ]
+}

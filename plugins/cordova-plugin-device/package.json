@@ -1,0 +1,75 @@
+{
+  "_from": "git+https://github.com/apache/cordova-plugin-device.git",
+  "_id": "cordova-plugin-device@2.0.4-dev",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-plugin-device",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/apache/cordova-plugin-device.git",
+    "rawSpec": "https://github.com/apache/cordova-plugin-device.git",
+    "saveSpec": "git+https://github.com/apache/cordova-plugin-device.git",
+    "fetchSpec": "https://github.com/apache/cordova-plugin-device.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/apache/cordova-plugin-device.git#846373abbab299ff8f19dd42568d3209b42136be",
+  "_spec": "https://github.com/apache/cordova-plugin-device.git",
+  "_where": "/Users/kevin/workspace/wordris-ts",
+  "author": {
+    "name": "Apache Software Foundation"
+  },
+  "bugs": {
+    "url": "https://github.com/apache/cordova-plugin-device/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-device",
+    "platforms": [
+      "android",
+      "ios",
+      "windows",
+      "browser",
+      "osx"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova Device Plugin",
+  "devDependencies": {
+    "@cordova/eslint-config": "^3.0.0"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "3.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "homepage": "https://github.com/apache/cordova-plugin-device#readme",
+  "keywords": [
+    "cordova",
+    "device",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows",
+    "cordova-browser",
+    "cordova-osx"
+  ],
+  "license": "Apache-2.0",
+  "name": "cordova-plugin-device",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apache/cordova-plugin-device.git"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint"
+  },
+  "types": "./types/index.d.ts",
+  "version": "2.0.4-dev"
+}

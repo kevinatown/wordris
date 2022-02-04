@@ -1,0 +1,24 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.wordris.app"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.wordris.app"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.wordris.app"
+    },
+    "cordova-plugin-wkwebview-engine": {
+      "PACKAGE_NAME": "com.wordris.app"
+    }
+  },
+  "dependent_plugins": {}
+}

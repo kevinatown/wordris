@@ -1,0 +1,16 @@
+{
+    "android": {
+        "debug": {
+            "keystore": "~/.keys/wordris",
+            "storePassword": "",
+            "alias": "wordris",
+            "password" : ""
+        },
+        "release": {
+            "keystore": "~/.keys/wordris",
+            "storePassword": "",
+            "alias": "wordris",
+            "password" : ""
+        }
+    }
+}
